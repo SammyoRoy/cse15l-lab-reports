@@ -2,6 +2,7 @@ Hello, world!
 
 # Welcome to my website
 ## CSE 15L reflections
+### [Week 1 Lab Report](https://github.com/SammyoRoy/cse15l-lab-reports/blob/main/Week1LabReport.md)
 ---
 > I love coding
 > very much
