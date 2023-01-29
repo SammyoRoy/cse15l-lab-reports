@@ -38,6 +38,6 @@ Some commands you can try are:
 - `pwd`
 
 ![Image](commandsSS.png)
-For instance, the above sequence of commands first changes directory to the home directory. The pwd command then prints the path of the working directory from the root. The ls -lt command lists the files in the directory; the -l provides a more detailed listing of the files while the -t lists the files in the order they were modified.
+For instance, the above sequence of commands first changes directory to the home directory. The `pwd` command then prints the path of the working directory from the root. The `ls -lt` command lists the files in the directory; the `-l` provides a more detailed listing of the files while the `-t` lists the files in the order they were modified.
 
 Keep playing around with the commands, and have fun!
