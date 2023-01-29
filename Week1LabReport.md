@@ -12,7 +12,7 @@ like the following screenshot.
 ![Image](VSCodeSS.png)
 
 ### Step 3: Download Git and setup terminal
-Download Git from [the web] https://gitforwindows.org/
+Download Git from [the web](https://gitforwindows.org/)
 Then setup Bash for VSCode by following [this tutorial](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994)
 
 ### Step 4: Remotely connecting
