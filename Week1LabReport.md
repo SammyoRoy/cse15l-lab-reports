@@ -18,7 +18,9 @@ Then setup Bash for VSCode by following [this tutorial](https://stackoverflow.co
 ### Step 4: Remotely connecting
 To connect to a server using ssh, open a new terminal in VSCode and paste the following command, replacing zzz with the last three digits of your username.
 
-```$ ssh cs15lwi23zzz@ieng6.ucsd.edu```
+```
+$ ssh cs15lwi23zzz@ieng6.ucsd.edu
+```
 
 You should see a message like the following:
 
@@ -31,11 +33,11 @@ Enter yes, and then input your password. Then, if you've succesfully connected t
 ### Step 5: Running commands
 Now that your computer (the client) is connected to the server, you can run commands from your computer that will run in the server.
 Some commands you can try are:
-- `cd`
-- `ls`
-- `ls \-a`
-- `ls -lat`
-- `pwd`
+- ```cd```
+- ```ls```
+- ```ls \-a```
+- ```ls -lat```
+- ```pwd```
 
 ![Image](commandsSS.png)
 For instance, the above sequence of commands first changes directory to the home directory. The `pwd` command then prints the path of the working directory from the root. The `ls -lt` command lists the files in the directory; the `-l` provides a more detailed listing of the files while the `-t` lists the files in the order they were modified.
