@@ -31,11 +31,11 @@ Enter yes, and then input your password. Then, if you've succesfully connected t
 ### Step 5: Running commands
 Now that your computer (the client) is connected to the server, you can run commands from your computer that will run in the server.
 Some commands you can try are:
-- cd
-- ls
-- ls \-a
-- ls -lat
-- pwd
+- `cd`
+- `ls`
+- `ls \-a`
+- `ls -lat`
+- `pwd`
 
 ![Image](commandsSS.png)
 
