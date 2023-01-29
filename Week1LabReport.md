@@ -5,7 +5,7 @@
 Use [the account-lookup website](https://sdacs.ucsd.edu/~icc/index.php) to find your course-specific username and reset the password
 
 ### Step 2: Download Visual Studio Code
-Download Visual Studio Code from [the web] https://code.visualstudio.com/.
+Download Visual Studio Code from [the web](https://code.visualstudio.com/).
 After following the installer's instructions, you should be able to open VSCode. It should look something
 like the following screenshot.
 
