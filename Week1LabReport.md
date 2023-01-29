@@ -2,7 +2,7 @@
 ## SSH log-in tutorial 
 
 ### Step 1: Find CSE15L Account
-Use https://sdacs.ucsd.edu/~icc/index.php to find your course-specific username and reset the password
+Use [Link](https://sdacs.ucsd.edu/~icc/index.php) to find your course-specific username and reset the password
 
 ### Step 2: Download Visual Studio Code
 Download Visual Studio Code from https://code.visualstudio.com/.
