@@ -28,6 +28,7 @@ assertArrayEquals(new int[]{0,0,0}, ArrayExamples.reversed(input1));
 ![Image](SymptomSS.png)
 
 **The Bug**
+
 *Before*
 ```
   // Returns a *new* array with all the elements of the input array in         reversed order
@@ -40,6 +41,7 @@ assertArrayEquals(new int[]{0,0,0}, ArrayExamples.reversed(input1));
   }
 ```
 The bug is that the new array’s values (which are all initialized with 0) are being set to the original array instead of vice-versa. Correcting this correctly returns a new array in reverse order.
+
 *After*
 ```
   // Returns a *new* array with all the elements of the input array in         reversed order
@@ -52,7 +54,7 @@ The bug is that the new array’s values (which are all initialized with 0) are 
   }
 ```
 
-###Part 3
+### Part 3
 
 The stuff about hosting servers using Java was new to me and really interesting! I hadn't known about the java.net package or any of its methods previously. It got me thinking about all sorts of applications for those techniques, especially to help me create small personal projects such as an improved version of When2Meet. 
 
