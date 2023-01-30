@@ -53,6 +53,7 @@ The bug is that the new array’s values (which are all initialized with 0) are 
 ```
 
 ###Part 3
+
 The stuff about hosting servers using Java was new to me and really interesting! I hadn't known about the java.net package or any of its methods previously. It got me thinking about all sorts of applications for those techniques, especially to help me create small personal projects such as an improved version of When2Meet. 
 
 
