@@ -4,6 +4,7 @@ Hello, world!
 ## CSE 15L reflections
 ### [Week 1 Lab Report](https://sammyoroy.github.io/cse15l-lab-reports/Week1LabReport.html)
 ### [Lab 2/3 Report](https://sammyoroy.github.io/cse15l-lab-reports/LabReport2.html)
+### [Lab Report 3](https://sammyoroy.github.io/cse15l-lab-reports/LabReport3.html)
 ---
 > I love coding
 > very much
