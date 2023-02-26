@@ -2,7 +2,7 @@
 
 **Exploring the ```grep``` command**
 
-(Note: The codeblock formatting disappears when I use the print -> save to pdf option on Chrome)
+(Note: The codeblock formatting disappears when I use the print --> save to pdf option on Chrome)
 1) ```grep -v```
 
 [Source](https://en.wikibooks.org/wiki/Grep)
