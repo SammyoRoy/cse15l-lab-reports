@@ -2,6 +2,7 @@
 
 **Exploring the ```grep``` command**
 
+(Note: The codeblock formatting disappeats when I use the print -> save to pdf option on Chrome)
 1) ```grep -v```
 
 [Source](https://en.wikibooks.org/wiki/Grep)
@@ -9,13 +10,15 @@
 The `grep -v` command filters a list by excluding the search term. This could be useful if you're
 trying to exclude a certain type of file, works by a certain author, topic, etc.
 
+In this example, I'm filtering out all the files that have History in the title. This could be useful if I'm not interested in reading any history articles when planning my trip. 
+
 ```
 $ cd written_2/travel_guides/berlitz2
 $ ls | grep -v History
 Algarve-Intro.txt
 Algarve-WhatToDo.txt
 Algarve-WhereToGo.txt
-Amsterdam-Intro.txt
+Amsterdam-I
 Amsterdam-WhatToDo.txt
 Amsterdam-WhereToGo.txt
 Athens-Intro.txt
@@ -68,6 +71,7 @@ Vallarta-WhatToDo.txt
 Vallarta-WhereToGo.txt
 ```
 
+In this example, I'm filtering out all the files that contain Intro in the title. This could be useful if I'm already familiar with the locations and thus am not interested in reading the intro articles.
 ```
 $ cd ../berlitz1
 $ ls | grep -v Intro
@@ -157,12 +161,13 @@ WhereToMallorca.txt
 [Source](https://man7.org/linux/man-pages/man1/grep.1.html)
 The `grep -r` command recursively searches through *all* the files in a directory. This is really useful if you want to look through every subdirectory at once.
 
+In this example, I'm searching through all the files for the word "Lucayans". This could be useful if I want to find more information specifically on the Lucayans.
 ```
 $ grep -r "Lucayans"
 written_2/travel_guides/berlitz2/Bahamas-History.txt:Centuries before the arrival of Columbus, a peaceful Amerindian people who called themselves the Luccucairi had settled in the Bahamas. Originally from South America, they had traveled up through the Caribbean islands, surviving by cultivating modest crops and from what they caught from sea and shore. Nothing in the experience of these gentle people could have prepared them for the arrival of the Pinta, the Niña, and the Santa Maria at San Salvador on 12 October 1492. Columbus believed that he had reached the East Indies and mistakenly called these people Indians. We know them today as the Lucayans. Columbus claimed the island and others in the Bahamas for his royal Spanish patrons, but not finding the gold and other riches he was seeking, he stayed for only two weeks before sailing towards Cuba.
 written_2/travel_guides/berlitz2/Bahamas-History.txt:The Spaniards never bothered to settle in the Bahamas, but the number of shipwrecks attest that their galleons frequently passed through the archipelago en route to and from the Caribbean, Florida, Bermuda, and their home ports. On Eleuthera the explorers dug a fresh-water well — at a spot now known as “Spanish Wells” — which was used to replenish the supplies of water on their ships before they began the long journey back to Europe with their cargoes of South American gold. As for the Lucayans, within 25 years all of them, perhaps some 30,000 people, were removed from the Bahamas to work — and die — in Spanish gold mines and on farms and pearl fisheries on Hispaniola (Haiti), Cuba, and elsewhere in the Caribbean.
 ```
-
+In this example, I'm searching through all the files for the word "Vista". This could be useful if I'm interested in scenic viewpoints.
 ```
 $ grep -r "Vista"
 written_2/non-fiction/OUP/Castro/chB.txt:Buena Vista, Mateo, La Seis, Chiquis, El Sur and all
@@ -177,10 +182,12 @@ written_2/travel_guides/berlitz2/PuertoRico-WhereToGo.txt:High in the hills behi
 [Source](https://man7.org/linux/man-pages/man1/grep.1.html)
 Prints a count of matching lines for each input file. Could be useful for finding frequencies of words and other clustering techniques.
 
+In this example, the output shows how many times "Egypt" is mentioned in the HistoryEgypt.txt file. This could be useful if I want to see what words are mentioned the most in the file.
 ```
 $ grep -c Egypt HistoryEgypt.txt
 55
 ```
+In this example, the output shows how many times "Mediterranean" is mentioned in the HistoryGreek.txt file. This could be useful if I want to see what words are mentioned the most in the file.
 ```
 $ grep -c Mediterranean HistoryGreek.txt
 5
@@ -191,11 +198,13 @@ $ grep -c Mediterranean HistoryGreek.txt
 
 The `grep -n` command prints the line number of where the match is located. This could be useful if you want to see how the term is distributed along a file, eg more frequent in the top, middle, or bottom.
 
+In this example, the command output shows where "Clovis" is located in HistoryFrance.txt. This could be useful because it shows Clovis is mentioned near the middle of the file which immediately gives some context to France's historical timeline.
 ```
 $ ls | grep -n Clovis HistoryFrance.txt
 49:        Clovis, the leader of the Franks, defeated the Roman armies at
 ```
 
+In this example, the command output shows where "Ireland" is located HistoryDublin.txt. It seems to be distributed pretty consistently throughout the entirety of the article. 
 ```
 $ ls | grep -n Ireland HistoryDublin.txt
 7:        Celtic Ireland
