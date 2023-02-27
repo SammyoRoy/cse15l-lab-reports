@@ -11,7 +11,7 @@ The `ssh cs15lwi23ams@ieng6.ucsd.edu` command was 1 up in the search history, so
 
 5) **Clone your fork of the repository from your Github account**
 
-*Keys pressed: `<right-click><enter>*
+*Keys pressed: `<right-click><enter>`*
 
 <img width="429" alt="image" src="https://user-images.githubusercontent.com/29411228/221469951-ee6ccf9f-bbcb-4567-95ad-1a8a6478fdf1.png">
 
@@ -19,7 +19,7 @@ The `git clone git@github.com:SammyoRoy/lab7.git` was copied to my clipboard, so
 
 6) **Run the tests, demonstrating that they fail**
 
-*Keys pressed: <ctrl+c><right-click><enter>*
+*Keys pressed: `<ctrl+c><right-click><enter>`*
   
  <img width="779" alt="image" src="https://user-images.githubusercontent.com/29411228/221474622-bec7bd94-0b91-4ba2-a7df-5ee75581fa8e.png">
 
@@ -33,7 +33,7 @@ The semi-colons chain the commands together, so they run consecutively automatic
   
 7) **Edit the code file to fix the failing test**
 
- *Keys pressed* <ctrl+r><"n"><enter> <ctrl+w><"merge"><enter>, <down[10 times]><left[6 times]><backspace><"2>, <ctrl+o><enter><ctrl+x>
+ *Keys pressed `<ctrl+r><"n"><enter> <ctrl+w><"merge"><enter>, <down[10 times]><left[6 times]><backspace><"2>, <ctrl+o><enter><ctrl+x>`*
   
   <img width="713" alt="image" src="https://user-images.githubusercontent.com/29411228/221472517-92064403-1f5b-469f-ad34-7fe329652c48.png">
 
