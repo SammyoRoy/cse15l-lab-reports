@@ -61,6 +61,7 @@ git push
 ```
 
 Next we will edit `Lab5.sh` to log into Ieng6 and to run `SSHGradingScript.sh`.
+
 4) **Log into ieng6**
 Write: `ssh cs15lwi23ams@ieng6.ucsd.edu bash SSHGradingScript.sh`
 
