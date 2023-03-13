@@ -1,5 +1,7 @@
 # Lab Report 5
 
+*(Note: The code block formatting disappears when I use the print --> save as pdf option)*
+
 I'm going to explore how I could have done the task for Lab Report 4 using a Bash script (or 2).
 
 First, we need to create two new files: `Lab5.sh` that runs in your local context, and `SSHGradingScript.sh` that runs on the remote computer. This is because, through trial and error, I learned that when you log in through SSH on a local host's bash script, it doesn't run the rest of the bash script because the remote computer is running a distinct terminal from the one that your local bash script resides in.
@@ -63,6 +65,7 @@ git push
 Next we will edit `Lab5.sh` to log into Ieng6 and to run `SSHGradingScript.sh`.
 
 4) **Log into ieng6**
+
 Write: `ssh cs15lwi23ams@ieng6.ucsd.edu bash SSHGradingScript.sh`
 
 That's it for the two Bash scripts. However, we need to copy `SSHGradingScript.sh` onto our remote computer. To do so, open your terminal and execute the following command (make sure you're in the folder containing `SSHGradingScript.sh`):
@@ -70,5 +73,8 @@ That's it for the two Bash scripts. However, we need to copy `SSHGradingScript.s
 This copies `SSHGradingScript.sh` into the home directory of the remote computer. 
 
 And we're done! When we want to complete the task now, all we need to do is type `bash Lab5.sh` on our local terminal and hit enter.
+
+<img width="319" alt="image" src="https://user-images.githubusercontent.com/29411228/224595125-bee2e3f8-3e6a-4e08-aa67-11d4cab3dc39.png">
+
 
 
